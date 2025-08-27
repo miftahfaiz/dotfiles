@@ -1,9 +1,0 @@
-[Added Associations]
-text/plain=qutebrowser.desktop;
-image/png=viewnior.desktop;
-application/octet-stream=vlc.desktop;
-
-[Default Applications]
-x-scheme-handler/tg=telegramdesktop.desktop
-image/png=viewnior.desktop
-text/plain=mousepad.desktop
