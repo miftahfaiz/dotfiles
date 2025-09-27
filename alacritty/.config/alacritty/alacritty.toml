@@ -1,0 +1,15 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 5
+padding.y = 5
+opacity = 0.9
+blur = true
+
+[font]
+size = 15
+
+[font.normal]
+family = "FantasqueSansM NerdFont Mono"
+style = "Regular"

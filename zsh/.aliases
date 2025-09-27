@@ -1,0 +1,13 @@
+alias l="eza --sort name --icons"
+alias ls="eza --sort name --icons --all"
+alias la="eza --sort name --icons --all --long"
+alias ll="eza --sort name --long"
+alias lla="eza --sort name --long --all"
+alias lt="eza --tree --level=2"
+
+alias c="clear"
+alias e="exit"
+alias ..="cd .."
+
+alias nv="nvim"
+alias nz="nvim .zshrc"
