@@ -8,7 +8,7 @@ opacity = 0.9
 blur = true
 
 [font]
-size = 15
+size = 16
 
 [font.normal]
 family = "FantasqueSansM NerdFont Mono"

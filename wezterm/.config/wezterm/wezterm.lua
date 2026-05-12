@@ -19,13 +19,19 @@ local config = {
     },
   },
 
-  -- Disable default Super+w
   keys = {
+    -- Disable default Super+w
     {
       key = "w",
       mods = "CMD",
       action = wezterm.action.DisableDefaultAssignment,
     },
+    -- Disable default Super+n
+    {
+      key = "n",
+      mods = "CMD",
+      action = wezterm.action.DisableDefaultAssignment,
+    }
   },
 }
 

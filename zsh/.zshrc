@@ -13,6 +13,11 @@ fi
 autoload -Uz compinit
 compinit
 
+# Keybindings
+bindkey -e
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+
 # History settings
 HISTSIZE=5000
 HISTFILE=~/.histfile
@@ -92,3 +97,7 @@ function y() {
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+# bun completions
+[ -s "/home/kyooz/.bun/_bun" ] && source "/home/kyooz/.bun/_bun"
+
